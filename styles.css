@@ -16,20 +16,51 @@ body {
 body main {
   max-width: 325px;
 }
+@media (min-width: 600px) {
+  body main {
+    max-width: 1110px;
+  }
+}
 body main .intro {
   text-align: center;
   margin: 75px 0;
 }
+@media (min-width: 600px) {
+  body main .intro {
+    width: 50%;
+    margin: 75px auto;
+  }
+}
 body main .intro h2 {
+  color: #4c4e61;
   font-weight: 200;
 }
+@media (min-width: 600px) {
+  body main .intro h2 {
+    font-size: 2.5rem;
+  }
+}
 body main .intro h1 {
+  color: #4c4e61;
   font-size: 1.6rem;
+}
+@media (min-width: 600px) {
+  body main .intro h1 {
+    font-size: 2.5rem;
+  }
 }
 body main .intro p {
   color: #4c4e61;
   font-weight: 200;
   margin-top: 20px;
+}
+@media (min-width: 600px) {
+  body main .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 35px;
+  }
 }
 body main .card-container .card {
   position: relative;
@@ -40,6 +71,11 @@ body main .card-container .card {
   height: 225px;
   padding: 30px;
   border-top: 4px solid black;
+}
+@media (min-width: 600px) {
+  body main .card-container .card {
+    margin-bottom: 35px;
+  }
 }
 body main .card-container .card.supervisor {
   border-color: #45d3d3;
