@@ -89,8 +89,12 @@ body main .card-container .card.karma {
 body main .card-container .card.calculator {
   border-color: #549ef2;
 }
-body main .card-container .card h3 {
+body main .card-container .card span {
   color: #4c4e61;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  display: block;
 }
 body main .card-container .card p {
   color: #a3a5ae;
